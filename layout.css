@@ -1,0 +1,17 @@
+.frame{
+    display: flex;
+}
+.left{
+    flex:none;
+    width: 200px;
+}
+.right{
+    flex:auto;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.item{
+    margin-right:10px; 
+    width: 50px;
+}
