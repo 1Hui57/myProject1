@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //建立物件
+        let man = new Object();//建立空白物件
+        man.age = 18;//物件.成員名稱=資料
+        man.name = "小王"
+        man.talk = function () {
+            //物件的方法中使用"this"，代表物件本身
+            console.log("Hello 我是", this.name, "年齡是", this.age);
+        }//建立一個物件中的"方法"
+
+        //使用物件
+        console.log(man);
+        console.log(man.age > 20);//物件.成員名稱
+        man.talk();
+
+        //使用json建立物件
+        let man1 = {
+            age: 15,
+            name: "小芬",
+            talk: function () {
+                console.log("嗨，我是", this.name, "我今年", this.age, "歲")
+            }
+        };
+        console.log(man1);
+        man1.talk();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+.top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 37px;
+}
+
+
+.desktop-list {
+    flex: none;
+    font-size: 13px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.circle {
+    height: 26px;
+    width: 26px;
+    margin-left: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-picture {
+    flex: none;
+    background-color: blue;
+    width: 300px;
+    height: 160px;
+}
+
+.search {
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box-outside {
+    width: 600px;
+    height: 40px;
+    border-radius: 300px;
+    padding: 4px;
+    background-color: #D3D3D3;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    flex: none;
+    width: 600px;
+    height: 40px;
+    border-color: black;
+    border-radius: 300px;
+    align-items: center;
+    background-color: white;
+}
+
+.search-icon {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.search-text {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-right: 310px;
+}
+
+.inside-icon{
+    margin-left: 10px;
+}
+
+
+.comman-paging-box{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+}
+
+.comman-paging{
+    display: flex;
+    flex: none;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.paging-icon{
+    flex: none;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #D3D3D3;
+    border-radius: 50%;
+}
+
+.paging-text{
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.bottom{
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    background-color: blueviolet;
+}
